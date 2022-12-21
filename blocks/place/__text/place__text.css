@@ -1,3 +1,5 @@
 .place__text:last-child {
-   margin-bottom: 0; 
+   display: grid;
+   grid-auto-rows: min-content;
+   row-gap: 26px;
 }

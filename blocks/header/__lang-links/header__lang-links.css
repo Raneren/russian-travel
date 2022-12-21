@@ -1,4 +1,7 @@
 .header__lang-links {
-    display: flex;
-    align-items: flex-end;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 18px;
+    align-content: flex-end;
+
 }
