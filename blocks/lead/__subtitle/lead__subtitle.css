@@ -9,3 +9,15 @@
   text-align: center;
   color: #fff;
 }
+@media screen and (max-width: 720px) {
+  .lead__subtitle {
+    max-width: 425px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .lead__subtitle {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+}

@@ -1,7 +1,23 @@
 .footer {
-    margin-top: 92px;
-    width: 100%;
-    min-height: 16px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 92px;
+  width: 100%;
+  max-width: 1280px;
+  min-height: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 88px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 370px) {
+  .footer {
+    margin-top: 64px;
+  }
 }

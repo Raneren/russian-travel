@@ -1,16 +1,25 @@
 .header__lang-link {
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
   color: #fff;
-  transition: opacity .4s;
+  transition: opacity 0.4s;
 }
+
+/*убираем подчеркивание у второй ссылки*/
 .header__lang-link:last-of-type {
   text-decoration: none;
 }
-/*Выше убираем подчеркивание у второй ссылки*/
+
 .header__lang-link:hover {
-  opacity: .8;
-} 
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 720px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

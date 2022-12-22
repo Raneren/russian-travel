@@ -1,5 +1,10 @@
 .place__webcite {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+@media screen and (max-width: 370px) {
+  .place__webcite {
+    margin: 0 16px;
+  }
 }
