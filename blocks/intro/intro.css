@@ -1,8 +1,7 @@
 .intro {
   margin-top: 92px;
-  max-width: 690px;
-  min-height: 429px;
-  align-self: flex-start;
+  width: 100%;
+  max-width: 984px;
 }
 @media screen and (max-width: 768px) {
   .intro {

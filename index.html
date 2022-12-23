@@ -16,7 +16,7 @@
           alt="Карта России"
         />
         <div class="header__lang-links">
-          <a class="header__lang-link" href="#">Ru</a>
+          <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
           <a class="header__lang-link" href="#">En</a>
         </div>
       </header>
@@ -34,30 +34,41 @@
           <p class="lead__caption">ваша полка — верхняя</p>
         </section>
         <section class="intro">
-          <h2 class="intro__title">Чего мы там не видели?</h2>
-          <p class="intro__text">
-            По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
-            36% планируют провести отпуск в родной стране. Мол, чего мы тут,
-            дома, не видели? На самом деле, Россия — это целая вселенная с
-            ласковым морем юга, густыми лесами Саян и суровыми льдами плато
-            Путорана. А ещё увидеть все эти красоты можно без миллионов на
-            счету, загранпаспорта и многочасовых перелетов. Как, например, Вера
-            Башмакова — смелая молодая мама, которая взяла в охапку троих детей,
-            усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
-            стране. Мы выбрали и описали некоторые интересные места, достойные
-            вашего отпуска.
-          </p>
-          <ul class="intro__list">
-            <li class="intro__list-item">Часовых поясов 11</li>
-            <li class="intro__list-item">
-              Объектов природного наследия ЮНЕСКО 12
-            </li>
-            <li class="intro__list-item">
-              Объектов культурного наследия ЮНЕСКО 16
-            </li>
-            <li class="intro__list-item">Природных заповедников 105</li>
-            <li class="intro__list-item">Аэропортов 241</li>
-          </ul>
+          <div class="intro__container">
+            <h2 class="intro__title">Чего мы там не видели?</h2>
+            <p class="intro__text">
+              По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но
+              только 36% планируют провести отпуск в родной стране. Мол, чего мы
+              тут, дома, не видели? На самом деле, Россия — это целая вселенная
+              с ласковым морем юга, густыми лесами Саян и суровыми льдами плато
+              Путорана. А ещё увидеть все эти красоты можно без миллионов на
+              счету, загранпаспорта и многочасовых перелетов. Как, например,
+              Вера Башмакова — смелая молодая мама, которая взяла в охапку троих
+              детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по
+              родной стране. Мы выбрали и описали некоторые интересные места,
+              достойные вашего отпуска.
+            </p>
+            <ul class="intro__list">
+              <li class="intro__list-item">
+                Часовых поясов <span class="intro__list-item-number">11</span>
+              </li>
+              <li class="intro__list-item">
+                Объектов природного наследия ЮНЕСКО
+                <span class="intro__list-item-number">12</span>
+              </li>
+              <li class="intro__list-item">
+                Объектов культурного наследия ЮНЕСКО
+                <span class="intro__list-item-number">16</span>
+              </li>
+              <li class="intro__list-item">
+                Природных заповедников
+                <span class="intro__list-item-number">105</span>
+              </li>
+              <li class="intro__list-item">
+                Аэропортов <span class="intro__list-item-number">241</span>
+              </li>
+            </ul>
+          </div>
         </section>
         <section class="photo-grid">
           <img
@@ -122,7 +133,7 @@
           />
         </section>
         <section class="places">
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__webcite">
               <h3 class="place__url-heading">URL</h3>
@@ -151,8 +162,8 @@
                 прохладного моря.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__webcite">
               <h3 class="place__url-heading">URL</h3>
@@ -184,8 +195,8 @@
                 с билетом в Мурманск.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__webcite">
               <h3 class="place__url-heading">URL</h3>
@@ -217,8 +228,8 @@
                 края.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__webcite">
               <h3 class="place__url-heading">URL</h3>
@@ -249,8 +260,8 @@
                 197.011 км/ч.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__webcite">
               <h3 class="place__url-heading">URL</h3>
@@ -276,7 +287,7 @@
                 помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
               </p>
             </div>
-          </div>
+          </article>
         </section>
         <section class="cover">
           <a

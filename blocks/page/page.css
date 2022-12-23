@@ -1,8 +1,8 @@
 .page {
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 28px 48px;
   width: 100%;
+  height: 100%;
 
   display: flex;
   flex-direction: column;
@@ -11,14 +11,4 @@
 
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-}
-@media screen and (max-width: 768px) {
-  .page {
-    padding: 28px 24px 24px;
-  }
-}
-@media screen and (max-width: 370px) {
-  .page {
-    padding: 16px 16px 24px;
-  }
 }

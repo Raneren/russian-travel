@@ -1,7 +1,13 @@
 .header__lang-links {
     display: grid;
     grid-auto-flow: column;
+    grid-template-rows: min-content;
     column-gap: 18px;
-    align-content: flex-end;
+    padding-top: 18px;
 
 }
+@media screen and (max-width: 720px) {
+    .header__lang-links {
+        padding-top: 16px;
+    }
+  }
